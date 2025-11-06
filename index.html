@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Truyện Tranh A13</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div id="login-modal-target" style="display: none;"></div>
+    <div id="mini-cart-target" style="display: none;"></div> 
+    <div id="close" style="display: none;"></div> 
+    <header>
+        <div class="container">
+            <a href="#" class="logo-link">
+                <h1 class="logo">MangaXYZ</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li class="dropdown-container">
+                        <a href="#">Thể Loại</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Romance</a></li>
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Adventure</a></li>
+                            <li><a href="#">Fantasy</a></li>
+                            <li><a href="#">Ecchi</a></li>
+                            <li><a href="#">Honor</a></li>
+                            <li><a href="#">School Life</a></li>
+                            <li><a href="#">Isekai</a>
+                        </ul>
+                    </li>
+                    <li><a href="#">Xếp Hạng</a></li>
+                    
+                    <li class="gio-hang-container">
+                        <a href="#mini-cart-target" class="nut-gio-hang">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="so-luong-gio-hang">3</span>
+                        </a>
+                    </li>
+                    
+                    <li><a href="#login-modal-target" class="nut-login">Đăng Nhập</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-banner">
+        <div class="container banner-content">
+            <div class="banner-text">
+                <h2>TOP TRUYỆN TRANH HAY NHẤT THÁNG 11</h2>
+            </div>
+            <div class="banner-books-wrapper">
+                <div class="banner-book-card">
+                    <img src="img/frierenspeacial.jpg" alt="Bìa truyện 1">
+                    <div class="book-info">
+                        <span class="category">Adventure</span>
+                        <p class="price">Giá: 55.000đ</p>
+                    </div>
+                </div>
+                <div class="banner-book-card">
+                    <img src="img/gtnh14.webp" alt="Bìa truyện 2">
+                    <div class="book-info">
+                        <span class="category">Romance</span>
+                        <p class="price">Giá: 200.000đ</p>
+                    </div>
+                </div>
+                <div class="banner-book-card">
+                    <img src="img/op.jpg" alt="Bìa truyện 3">
+                    <div class="book-info">
+                        <span class="category">Adventure</span>
+                        <p class="price">Giá: 99.000đ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container main-layout">
+
+        <aside class="sidebar">
+            <h3>Tìm Kiếm</h3>
+            <input type="search" placeholder="Tên truyện..." class="search-bar">
+
+            <h3>Nhà Xuất Bản</h3>
+            <ul class="danh-muc">
+                <li><a href="#">Kim Đồng</a></li>
+                <li><a href="#">Trẻ</a></li>
+                <li><a href="#">IPM</a></li>
+                <li><a href="#">Amak</a></li>
+            </ul>
+
+            <h3>Giá</h3>
+            <ul class="danh-muc">
+                <li><a href="#">Dưới 50.000đ</a></li>
+                <li><a href="#">50.000đ - 100.000đ</a></li>
+                <li><a href="#">Trên 100.000đ</a></li>
+            </ul>
+        </aside>
+
+        <main class="content">
+            <ul class="tabs">
+                <li><a href="#" class="active">Mới Nhất</a></li>
+                <li><a href="#">Bán Chạy</a></li>
+                <li><a href="#">Giảm Giá</a></li>
+            </ul>
+
+            <div class="danh-sach-truyen">
+                
+                <div class="the-truyen hot">
+                    <img src="img/frieren1.jpg" alt="Bìa truyện 1">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 1</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 55</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/frieren2.jpg" alt="Bìa truyện 2">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 2</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 150</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/frieren3.jpg" alt="Bìa truyện 3">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 3</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 78</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen hot">
+                    <img src="img/frieren4.jpg" alt="Bìa truyện 4">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 4</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 40</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/frieren5.jpg" alt="Bìa truyện 5">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 5</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 22</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/frieren6.jpg" alt="Bìa truyện 6">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 6</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 60</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen hot">
+                    <img src="img/frieren7.jpg" alt="Bìa truyện 7">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 7</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 15</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/frieren8.webp" alt="Bìa truyện 8">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 8</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 30</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/frieren9.webp" alt="Bìa truyện 9">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 9</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 80</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/frieren10.webp" alt="Bìa truyện 10">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 10</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 41</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/frieren11.jpg" alt="Bìa truyện 11">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 11</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 12</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/frieren12.jpg" alt="Bìa truyện 12">
+                    <div class="chi-tiet-truyen">
+                        <h3>Frieren: Beyond Journey’s End - Tập 12</h3>
+                        <p class="the-loai">Phiêu lưu</p>
+                        <p class="so-luong">Còn lại: 99</p>
+                        <p class="gia">55.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen hot">
+                    <img src="img/arya1.jpg" alt="Bìa truyện 13">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 1</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 3</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/arya2.jpg" alt="Bìa truyện 14">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 2</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 18</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/arya3.jpg" alt="Bìa truyện 15">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 3</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 7</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/arya4.jpg" alt="Bìa truyện 16">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 4</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 9</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/arya5.jpg" alt="Bìa truyện 17">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 5</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 25</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen hot">
+                    <img src="img/arya6.jpg" alt="Bìa truyện 18">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 6</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 50</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/arya7.jpg" alt="Bìa truyện 19">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 7</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 14</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/arya8.jpg" alt="Bìa truyện 20">
+                    <div class="chi-tiet-truyen">
+                        <h3>Arya - Tập 8</h3>
+                        <p class="the-loai">Romance</p>
+                        <p class="so-luong">Còn lại: 33</p>
+                        <p class="gia">105.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/um1.jpg" alt="Bìa truyện 21">
+                    <div class="chi-tiet-truyen">
+                        <h3>Unnamed Memory - Tập 1</h3>
+                        <p class="the-loai">Fantasy</p>
+                        <p class="so-luong">Còn lại: 10</p>
+                        <p class="gia">99.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen">
+                    <img src="img/um2.jpg" alt="Bìa truyện 22">
+                    <div class="chi-tiet-truyen">
+                        <h3>Unnamed Memory - Tập 2</h3>
+                        <p class="the-loai">Fantasy</p>
+                        <p class="so-luong">Còn lại: 5</p>
+                        <p class="gia">99.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+                <div class="the-truyen hot">
+                    <img src="img/um3.jpg" alt="Bìa truyện 23">
+                    <div class="chi-tiet-truyen">
+                        <h3>Unnamed Memory - Tập 3</h3>
+                        <p class="the-loai">Fantasy</p>
+                        <p class="so-luong">Còn lại: 8</p>
+                        <p class="gia">99.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+                
+                <div class="the-truyen">
+                    <img src="img/um4.jpg" alt="Bìa truyện 24">
+                    <div class="chi-tiet-truyen">
+                        <h3>Unnamed Memory - Tập 4</h3>
+                        <p class="the-loai">Fantasy</p>
+                        <p class="so-luong">Còn lại: 11</p>
+                        <p class="gia">99.000đ</p>
+                    </div>
+                    <a href="#" class="nut-mua">Thêm vào giỏ</a>
+                </div>
+
+            </div>
+            <ul class="pagination">
+                <li><a href="#" class="active">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">&raquo;</a></li>
+            </ul>
+
+        </main>
+    </div>
+
+    <section class="event-news-section">
+        <div class="container">
+            <h2>TIN TỨC & SỰ KIỆN</h2>
+            <div class="news-grid">
+                
+                <div class="news-card">
+                    <img src="img/event1.jpg" alt="Himmel's Wish">
+                    <div class="news-content">
+                        <h3>Himmel's Wish</h3>
+                        <p class="news-date"><i class="far fa-calendar-alt"></i> 09/11/2025</p>
+                        <p class="news-summary">Nhận ngay 1 card bo góc Himmel&Frieren khi mua truyện tại MangaXYZ</p>
+                        <a href="#" class="nut-xem-them">Xem thêm</a>
+                    </div>
+                </div>
+
+                <div class="news-card">
+                    <img src="img/event2.jpeg" alt="Giải đấu">
+                    <div class="news-content">
+                        <h3>Manga Festival 2025</h3>
+                        <p class="news-date"><i class="far fa-calendar-alt"></i> 10/01/2025</p>
+                        <p class="news-summary">Giải đố vui về các bộ truyện tranh nổi tiếng, giải thưởng hấp dẫn đang chờ đón.</p>
+                        <a href="#" class="nut-xem-them">Xem thêm</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="img/event3.jpeg" alt="Black Friday">
+                    <div class="news-content">
+                        <h3>Black Friday</h3>
+                        <p class="news-date"><i class="far fa-calendar-alt"></i> 28/11/2024</p>
+                        <p class="news-summary">Mua sắm truyện tranh với mức giảm giá 70% trong năm tại cửa hàng MangaXYZ.</p>
+                        <a href="#" class="nut-xem-them">Xem thêm</a>
+                    </div>
+                </div>
+                
+                <div class="news-card">
+                    <img src="img/event4.webp" alt="Truyện mới">
+                    <div class="news-content">
+                        <h3>Ra Mắt Truyện Mới Tháng 12</h3>
+                        <p class="news-date"><i class="far fa-calendar-alt"></i> 01/12/2024</p>
+                        <p class="news-summary">Cập nhật ngay danh sách các bộ truyện tranh mới phát hành trong tháng 12 này.</p>
+                        <a href="#" class="nut-xem-them">Xem thêm</a>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-grid">
+            
+            <div class="footer-column">
+                <h4>DỊCH VỤ</h4>
+                <ul>
+                    <li><a href="#">Điều khoản sử dụng</a></li>
+                    <li><a href="#">Chính sách bảo mật</a></li>
+                    <li><a href="#">Liên hệ nhà sách</a></li>
+                    <li><a href="#">Tra cứu đơn hàng</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>HỖ TRỢ</h4>
+                <ul>
+                    <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                    <li><a href="#">Chính sách đổi trả - hoàn tiền</a></li>
+                    <li><a href="#">Phương thức thanh toán</a></li>
+                    <li><a href="#">Chính sách khách hàng mua sỉ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column info-column">
+                <h4>LIÊN HỆ</h4>
+                <p><strong>MangaXYZ</strong></p>
+                <p>Địa chỉ: Đường Lê Lợi , Quận 1,TP.HCM</p>
+                <p>Điện thoại: 0123.456.789</p>
+                <p>Email: hotro@mangaxyz.vn</p>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-column subscribe-column">
+                <h4>ĐĂNG KÝ NHẬN TIN</h4>
+                <p>Nhận các tin tức mới và khuyến mãi từ MangaXYZ.</p>
+                <form class="subscribe-form">
+                    <input type="email" placeholder="Nhập email của bạn...">
+                    <button type="submit">ĐĂNG KÝ</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 MangaXYZ</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay mini-cart-overlay">
+        <div class="modal mini-cart">
+            <a href="#close" class="modal-close">&times;</a>
+            
+            <h2>🛒 Giỏ Hàng Của Bạn (3 Sản phẩm)</h2>
+            
+            <div class="cart-items-list">
+                
+                <div class="cart-item">
+                    <img src="img/frieren1.jpg" alt="Frieren 1">
+                    <div class="item-details">
+                        <p class="item-name">Frieren: Beyond Journey’s End - Tập 1</p>
+                        <p>55.000đ x <span class="item-quantity">1</span></p>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="img/arya1.jpg" alt="Arya 1">
+                    <div class="item-details">
+                        <p class="item-name">Arya - Tập 1</p>
+                        <p>105.000đ x <span class="item-quantity">1</span></p>
+                    </div>
+                </div>
+                
+                <div class="cart-item">
+                    <img src="img/um1.jpg" alt="Unnamed Memory 1">
+                    <div class="item-details">
+                        <p class="item-name">Unnamed Memory - Tập 1</p>
+                        <p>99.000đ x <span class="item-quantity">1</span></p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="cart-summary">
+                <p>Tổng cộng: <span id="cart-total-price">259.000đ</span></p>
+            </div>
+            
+            <a href="/checkout.html" class="nut-mua checkout-button" style="text-decoration: none;">THANH TOÁN</a>
+        </div>
+    </div>
+    
+    <div class="modal-overlay login-overlay">
+        
+        <div class="modal">
+            <a href="#close" class="modal-close">&times;</a>
+            
+            <h2>Đăng Nhập</h2>
+            <form>
+                <label for="username">Tài khoản:</label>
+                <input type="text" id="username" name="username">
+                
+                <label for="password">Mật khẩu:</label>
+                <input type="password" id="password" name="password">
+                
+                <button type="button" class="nut-mua">Đăng Nhập</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
